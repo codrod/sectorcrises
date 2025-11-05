@@ -1,0 +1,29 @@
+{
+    "excludedCrises": [
+        #"sectorcrisis_threat",
+        #"sectorcrisis_remnant"
+    ],
+    "sectorcrisis_remnant": {
+        "startYear": 215,
+        "escalationTime": 730.0,
+        "attackWaveCoolDown": 90.0,
+        "attackStrength": 1.0
+    },
+    "sectorcrisis_threat": {
+        "startYear": 215,
+        "escalationTime": 730.0,
+        "attackWaveCoolDown": 90.0,
+        "attackStrength": 1.0,
+        "maxMotherFleets": 8
+    },
+    "graphics": {
+        "sector_crisis": {
+            "hostile_activity_1":"graphics/icons/campaign/hostile_activity1.png",
+			"hostile_activity_2":"graphics/icons/campaign/hostile_activity2.png",
+			"hostile_activity_3":"graphics/icons/campaign/hostile_activity3.png",
+			"hostile_activity_4":"graphics/icons/campaign/hostile_activity4.png",
+            "event_bad": "graphics/icons/campaign/event_bad.png",
+            "major_event_bad": "graphics/icons/campaign/major_bad_event.png"
+        }
+    }
+}
